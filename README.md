@@ -79,7 +79,7 @@ Even with the lower (15 degree) angle on the camera this build gets on top of ev
 
 * 2.5" arms
 * HGLRC stack
-* RunCam backpack VTX
+* AKK 20x20 600mw VTX 
 * RunCam Nano (actually this camera is a pile of shit and the preferred camera has no name)
 * 3DP nano case
 * 1106 @6000kv
