@@ -1,6 +1,5 @@
 # FUn HOg
-
-<img src="/assets/hog-logo.png"/>
+<img style="width:10%;" src="/assets/hog-logo.png"/>
 
 <hr />
 
