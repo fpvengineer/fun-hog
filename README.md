@@ -1,6 +1,6 @@
-# FUn ;
+# FUn HOg
 
-<img src="rebubble-hog.png"/>
+<img src="/assets/hog-logo.png"/>
 
 <hr />
 
