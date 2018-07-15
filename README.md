@@ -5,11 +5,13 @@
 
 ## Basic Info
 
-`FUn HOg` is a 2-2.5" freestyle frame with removable arms.  The current version is a pure x (1:1), but a lateral stretch is in the works. There are several configuration possible and the design is a classic "Blackout Box" format. No need for silly over engineering to generate sales.
+`FUn HOg` is a 2-2.5" freestyle frame with removable arms.  The current version is a pure x (1:1), but a lateral stretch is in the works. 
+
+There are several configuration possible and the design is a classic "Blackout Box" format. No need for silly over engineering to generate sales.
 
 Wait, we are not interested in selling these frames. We may, we could, but honestly we got so and tired of all the shit out there on the market (way back in 2014) we decided to design and cut our own frames.
 
-Now the hype is worse, the noise is louder, and the intelligence behind frames lost a few more IQ points. We have no explaination as to why FPV is so fucked up, our best guess is that everyone is under the bridge huffing scotch guard?!
+Now the hype is worse, the noise is louder, and the intelligence behind frames lost a few more IQ points. We have no explanation as to why FPV is so fucked up, our best guess is that everyone is under the bridge huffing Scotch Guard or gasoline?!
 
 ## Configuration Range
 
@@ -17,6 +19,7 @@ Many different configurations are possible.
 
 * AUW is __100-150 gram__.
 * 20 x 20 mm stack (PCB)
+* 2mm hardware for PCB stack
 * KV range is 4000-10000. 
 * 2-4s battery @ 300-650mah
 * 2-2.5" prop
@@ -29,8 +32,10 @@ Many different configurations are possible.
  
 Mechanical Highlights:
 
-* Can be built with only 2 types of cut
-* 2 or 3 plate designs allows for a heavier (3 plate) build using dual bottom plates
+* Can be built with only 2 types of cut!
+* M3 hardware makes repair and upgrades easy. No need to unto down proprietary shit that will never be in stock when you need it.
+* 2 or 3 plate designs allows for a heavier (3 plate) build using dual bottom plates.
+* Open-source files allow the pilot to decide thickness of components.
 * Plates are 100% symmetrical
 * Plates are interchangeable
 * Arms are removable and interchangeable
@@ -60,7 +65,7 @@ There are a lot of configuration possibilities, here are 2 we like so far.
 
 ### Mellow Fellow 2"
 
-Solid 3min flights, bigger battery suggested nonetheless.  Feels like a 5", the weight is 124.5g AUW ad tames down the drivetrain a little. You have good punch, but a lower (10-15 degree) angle on the cam is recommended as this unit is designed and built to fly under cars, through windows and doors, and combine freestyle and proximity in the back yard.
+Solid 3min flights, bigger battery suggested nonetheless.  Feels like a 5", the weight is 124.5g AUW and tames down the drivetrain a little. You have good punch, but a lower (10-15 degree) angle on the cam is recommended as this unit is designed and built to fly under cars, through windows and doors, and combine freestyle and proximity in the yard.
 
 * 2" arms
 * HGLRC stack
@@ -71,20 +76,20 @@ Solid 3min flights, bigger battery suggested nonetheless.  Feels like a 5", the 
 * Gem Fan 2035 x 4 blade
 * M3 / 25mm stack
 * XM+
-* ~400mah 3s
+* ~400mah 3s (500-600 recommended)
 * 2 plate build
 * Top mount battery
 
 ### Bat on Fire 2.5"
 
-Even with the lower (15 degree) angle on the camera this build gets on top of everything, you house, the trees, everything. The high RPM and bigger prop add a stability and float providing a longer inertial throw leading to more hang time stabilized by more gyroscopic effect form the blades.  We thing this unit tops out at 50mph, but most of the time it is poking at gaps in the yard and diving the trees in range.
+Even with the lower (15 degree) angle on the camera this build gets on top of everything, your house, the trees, everything! The high RPM and bigger prop add stability and float. The longer inertial throw lends to more hang time that is stabilized by extra gyroscopic mojo form the blades.  We think this unit tops out at 50mph, but most of the time it is poking at gaps in the yard and diving the trees in range.
 
 * 2.5" arms
 * HGLRC stack
 * AKK 20x20 600mw VTX 
-* RunCam Nano (actually this camera is a pile of shit and the preferred camera has no name)
+* RunCam Nano (same disclaimer as above)
 * 3DP nano case
-* 1106 @6000kv
+* 1106 @ 6000kv
 * Gem Fan 2.5" 2540 3-Blade Propeller 
 * M3 / 25mm stack
 * XM+
@@ -106,7 +111,7 @@ Here is the basics of the license:
 
 Full license here: https://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-If you want to do a production run, put some coal int eh email machine and fire it out to info@
+If you want to do a production run, put some coal int eh email machine and fire it out to info@...
 
 <img src="/assets/fh1.png"/>
 
