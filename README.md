@@ -9,7 +9,7 @@
 
 Wait, we are not interested in selling these frames. We may, we could, but honestly we got so and tired of all the shit out there on the market (way back in 2014) we decided to design and cut our own frames.
 
-Now the hype is worse, the noise is louder, and the intelligence behind frames lost a few more IQ points. We have no explaination as to why FPV si so fucked up, our best guess is that everyone is under the bridge hussing scotch guard.  
+Now the hype is worse, the noise is louder, and the intelligence behind frames lost a few more IQ points. We have no explaination as to why FPV is so fucked up, our best guess is that everyone is under the bridge huffing scotch guard?!
 
 ## Configuration Range
 
