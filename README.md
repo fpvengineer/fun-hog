@@ -1,5 +1,5 @@
 # FUn HOg
-<img style="width:10%;" src="/assets/hog-logo.png"/>
+<img src="/assets/hog-logo.png"/>
 
 <hr />
 
@@ -106,3 +106,6 @@ Full license here: https://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 If you want to do a production run, put some coal int eh email machine and fire it out to info@
 
+<img src="/assets/fh1.png"/>
+
+<img src="/assets/fh2.png"/>
