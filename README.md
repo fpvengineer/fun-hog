@@ -13,6 +13,11 @@ Wait, we are not interested in selling these frames. We may, we could, but hones
 
 Now the hype is worse, the noise is louder, and the intelligence behind frames lost a few more IQ points. We have no explanation as to why FPV is so fucked up, our best guess is that everyone is under the bridge huffing Scotch Guard or gasoline?!
 
+## Plate thickness
+
+* V1 Cuts were 2.5mm carbon fiber for all parts.
+* V2 recomendation is 1.5mm for th eplates and 3mm or 4mm for the arms.
+
 ## Configuration Range
 
 Many different configurations are possible. 
