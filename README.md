@@ -130,7 +130,7 @@ You are not a pussy if you put the ESC on the arm ever. Arm ESCs are generally b
   
 __VTX antenna mounting__:
 
-These little bastards don't appreciate traditional antenna mounting approaches. The best right now is a dual fatty cable tie on back stand-offs that come to a tip, like a triangle. At the end is where the di-pole should socket. Wrap with some electrical tape and done.  At lower altitude and greater distance there can be a fuzz-out zone, if you go out too far __DON'T FREAK OUT__!  If gaining altitude is a safe option, this can help sometimes, but at the risk of a bigger drop should it fail. Otherwise [tacking](https://en.wikipedia.org/wiki/Tacking_(sailing) is recommended. Simply fly about 45 degrees to the left or right of the straight line back. As needed turn the other direction 90 degrees and repeat. The zig-zag will expose the tail di-pole. 
+These little bastards don't appreciate traditional antenna mounting approaches. The best right now is a dual fatty cable tie on back stand-offs that come to a tip, like a triangle. At the end is where the di-pole should socket. Wrap with some electrical tape and done.  At lower altitude and greater distance there can be a fuzz-out zone, if you go out too far __DON'T FREAK OUT__!  If gaining altitude is a safe option, this can help sometimes, but at the risk of a bigger drop should it fail. Otherwise [tacking](https://en.wikipedia.org/wiki/Tacking_(sailing)) is recommended. Simply fly about 45 degrees to the left or right of the straight line back. As needed turn the other direction 90 degrees and repeat. The zig-zag will expose the tail di-pole. 
 
 Dipole is common for backpack VTX and generally recommended.
 
