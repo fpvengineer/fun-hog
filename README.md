@@ -97,6 +97,114 @@ Even with the lower (15 degree) angle on the camera this build gets on top of ev
 * 2 plate build
 * Underslung battery
 
+## Build Notes / Gotchas
+
+* When purchasing an AIO ESC in a 20mm format the amp rating often differs from 30mm (spacing) boards. The difference is that the continuous and burst amp on a 20x20 are cumulative (total of all channel) and the 30x30 versions are per channel. Some known reference points for amp math:
+ * 205g AUW 1306 4000k on 4s @850 using 303 Tri-props with ~200mw VTX:
+     * 18-20amp to hover total, so around 4-5amp per channel
+     * A punch is 35-45amp
+     * Except possibly for the higher amp rated 20x20 ESC, this will fly but slowly cook and die.
+ * 260g AUW 14076 @ 4000kv 3030 tri-prop 600mw vtx:
+     * hovers around 25amp
+     * Highest recorded burst in 82 amp, a typical punch out is 45-60amp (this drive train is serious)
+ * ~110g AUV 1104 4000-7000kv range (multiple bird) 200mw vtx, 2035 or similar props:
+     * Hovers around 12amp
+     * Punch out gets close to 30 burst
+
+Compare those real world numbers (not a bench test) to a typical 2200-2700kv 5" quad on medium aggressive props hovering at 20amp and punch out around 100amp. Add 25% for aggressive props, take a little off flying mellow.
+
+Choosing the right ESC is very important. New entry to the market are not recommended, the mate may not be there when you want it. Also get a few spare ESCs provided you are in the right range.  
+
+You are not a pussy if you put the ESC on the arm ever. Arm ESCs are generally better here is the pro/con:
+
+* PRO:
+  * Cooled naturally by prop
+  * Cooler running because of separation from other gear meaning __NOT__ sandwiched between other probably hot PCBs.
+  * Easier to repair generally.
+  * Able to repair just one
+  * Failure does not kill the whole PCB (cheaper)
+* CON:
+  * More wires. (not a problem if you know how to build well)
+  * "prop strikes". Note the air quotes, this is not a real problem for freestyle flight.  Trying to fit through hoola hoop with 7 other buddies at the same time at full speed creates all sorts of problems. Adjust that behavior first possibly?
+  * Adds mass further out from center longitudinal axis (+ inertia).  Totally true, minor hit.
+  
+__VTX antenna mounting__:
+
+These little bastards don't appreciate traditional antenna mounting approaches. The best right now is a dual fatty cable tie on back stand-offs that come to a tip, like a triangle. At the end is where the di-pole should socket. Wrap with some electrical tape and done.  At lower altitude and greater distance there can be a fuzz-out zone, if you go out too far __DON'T FREAK OUT__!  If gaining altitude is a safe option, this can help sometimes, but at the risk of a bigger drop should it fail. Otherwise [tacking](https://en.wikipedia.org/wiki/Tacking_(sailing) is recommended. Simply fly about 45 degrees to the left or right of the straight line back. As needed turn the other direction 90 degrees and repeat. The zig-zag will expose the tail di-pole. 
+
+Dipole is common for backpack VTX and generally recommended.
+
+__Range__:
+
+Little fuckers like the FUn HOg are generally intended for yard missions and casual Park Missile™ dog-fights.  As such __telemetry is not required__ as the ~200mw common backpack VTX takes a shit long before the data connection.   
+
+Extending range is possible, but the size makes this difficult. More VTX kills the battery faster and generates more heat. Adding more battery and other edits turn the equation to a [red queen](https://en.wikipedia.org/wiki/Red_Queen_hypothesis) type of scenario. Frames and drive trains must achieve balance, The best balance for a 2-2.5" unit is flying in the yard or a small park. Small FPV units such as this has the power to make your surroundings much larger.  A small yard, a corner out behind where you work, or a warehouse is a great place to fly your sortie.
+
+__Durability__:
+
+Some of us fly these and they never break. Others are maniacs and break shit all the fucking time.  Most people are in the middle somewhere.
+
+These units fly very fast and the impact on crash will break arms. This is a fact one much come to terms with. If a typical 5" drone travels at 40-60mph at 700g AUW and a 2" drone travels at 30+ mph ~110g AUW think about how much more force is put on the unit when making impact.
+
+Some math via [this post](https://sciencing.com/calculate-force-impact-7617983.html).
+
+Calculating the impact of a horizontally moving object:
+
+```
+Force in Newtons
+F = (0.5 × m × v^2) ÷ d
+d = .04 meter / 4cm (crumble zone)
+m = weight in kilogram
+v = speed in meters/second
+```
+
+__700g drone = 6.24 Newton/gram impact force__
+
+```
+F = (0.5 × m × v^2) ÷ d
+4370.8 Newton = (.5 * .7 * 22.35^2) / 0.04
+4371/700 = 6.24 Newton / gram
+```
+
+
+__110g drone = 22.36 Newton / gram impact force__
+
+```
+F = (0.5 × m × v^2) ÷ d
+246.9 Newton = (.5 * .11 * 13.4^2) / 0.04
+4371/700 = 22.36 Newton / gram
+```
+
+If I did my math right (correct me if wrong) the 110g drone has __3.58 times more boom on impact__. 
+
+__DVR__:
+
+There are a few DVR on the market at the time of this document being written.  They are NOT HD an have their own grainy vintage feel. We find it romantic and are amazed to carry onboard recording in the 100g AUW range (and larger).  Right now we have 2 different types in circulation:
+
+* __Happy Model DVR__: Also sold by Crazy Pony and white labeled by a lot of shops.
+  * 720 resolution (better)
+  * 16:9 ratio compatible (thank you!)
+  * AVI format
+  * Only record  a few minutes (2?) and then writes and starts a new file. 
+  * The small file writing will clip out about 0.5 second when the file flips looking like a glitch once edited.
+  * Smaller of the units when de-cased (recommended).
+  * No mounting holes. We wrap it and sticky tape it somewhere.
+  * Does not auto start recording
+  * Will not save if file is not finalized (written to FAT)
+  * No USB, you need to pop the card
+  * Runs medium hot
+* __RunCam DVR__:
+  * About 360 resolution. Yeah shit right?
+  * Nominal 4:3 ration. Total bullshit.
+  * AVI format
+  * Recoding quality may be a little better, hard to say.
+  * Records continuous file (so far...)
+  * Auto start recording
+  * 20x20 pcb, mounts on stack (like you have room?)
+  * Will not save if file is not finalized (written to FAT)
+  * No USB, you need to pop the card
+  * Runs medium hot
+
 ## License
 
 __CC NC-SA 4.0__
