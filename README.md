@@ -145,43 +145,6 @@ Little fuckers like the FUn HOg are generally intended for yard missions and cas
 
 Extending range is possible, but the size makes this difficult. More VTX kills the battery faster and generates more heat. Adding more battery and other edits turn the equation to a [red queen](https://en.wikipedia.org/wiki/Red_Queen_hypothesis) type of scenario. Frames and drive trains must achieve balance, The best balance for a 2-2.5" unit is flying in the yard or a small park. Small FPV units such as this has the power to make your surroundings much larger.  A small yard, a corner out behind where you work, or a warehouse is a great place to fly your sortie.
 
-__Durability__:
-
-Some of us fly these and they never break. Others are maniacs and break shit all the fucking time.  Most people are in the middle somewhere.
-
-These units fly very fast and the impact on crash will break arms. This is a fact one much come to terms with. If a typical 5" drone travels at 40-60mph at 700g AUW and a 2" drone travels at 30+ mph ~110g AUW think about how much more force is put on the unit when making impact.
-
-Some math via [this post](https://sciencing.com/calculate-force-impact-7617983.html).
-
-Calculating the impact of a horizontally moving object:
-
-```
-Force in Newtons
-F = (0.5 × m × v^2) ÷ d
-d = .04 meter / 4cm (crumble zone)
-m = weight in kilogram
-v = speed in meters/second
-```
-
-__700g drone = 6.24 Newton/gram impact force__
-
-```
-F = (0.5 × m × v^2) ÷ d
-4370.8 Newton = (.5 * .7 * 22.35^2) / 0.04
-4371/700 = 6.24 Newton / gram
-```
-
-
-__110g drone = 22.36 Newton / gram impact force__
-
-```
-F = (0.5 × m × v^2) ÷ d
-246.9 Newton = (.5 * .11 * 13.4^2) / 0.04
-4371/700 = 22.36 Newton / gram
-```
-
-If I did my math right (correct me if wrong) the 110g drone has __3.58 times more boom on impact__. 
-
 __DVR__:
 
 There are a few DVR on the market at the time of this document being written.  They are NOT HD an have their own grainy vintage feel. We find it romantic and are amazed to carry onboard recording in the 100g AUW range (and larger).  Right now we have 2 different types in circulation:
